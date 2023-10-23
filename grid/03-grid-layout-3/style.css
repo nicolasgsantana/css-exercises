@@ -49,6 +49,12 @@
 
 .sidebar {
   background-color: #C50208;
+
+  grid-column: 1 / 2;
+
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 24px;
 }
 
 .sidebar .photo {
